@@ -22,3 +22,15 @@ df = pd.DataFrame(
 )
 st.write( df )
 
+
+x = 10
+st.write('x = ', x)
+
+import numpy as np
+
+n = np.random.randint(100)
+
+'''
+# Random Number
+n
+'''
