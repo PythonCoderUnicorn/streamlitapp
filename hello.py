@@ -71,7 +71,7 @@ company = {
 
 def net_income( dict ):
     net = dict['income'] - dict['expenses']
-    st.write(f"Net income = ${.2f}".format(net))
+    st.write(f"Net income = ${net}")
 
 
 net_income(company)
