@@ -66,7 +66,7 @@ st.write(x, 'squared is', x * x)
 
 company = {
     'income': 120_000,
-    'expenses': 788_900
+    'expenses': 78_900
 }
 
 def net_income( dict ):
