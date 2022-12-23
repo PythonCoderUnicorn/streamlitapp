@@ -61,3 +61,17 @@ st.line_chart(chart_data)
 import streamlit as st
 x = st.slider('x')  # 👈 this is a widget
 st.write(x, 'squared is', x * x)
+
+
+
+company = {
+    'income': 120_000,
+    'expenses': 788_900
+}
+
+def net_income( dict ):
+    net = dict['income'] - dict['expenses']
+    st.write(f"Net income = {net}")
+
+
+net_income(company)
