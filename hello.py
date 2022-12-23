@@ -32,5 +32,5 @@ n = np.random.randint(100)
 
 '''
 # Random Number
-n
 '''
+st.write(n)
